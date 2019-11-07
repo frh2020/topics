@@ -35,12 +35,12 @@ A **many-to-many** LSTM model is used for this multivariate and multi-step case.
 
 *   input timesteps = 12 hours
 *   pred timestep = 4 hour
-*   input features: all
+*   input features: pm2.5, dew, temp, press, wind speed, wind directions, rain, snow, doy, hour
 *   output features: pm2.5, temp
 *   train data duration: 4 years
 *   test data duration: 1 year
 *   neurons = 50
-*   return_sequence = **false**  for 1st stage, **Ture** for output
+*   return_sequences = **false**  for 1st stage, **Ture** for 2nd.
 
 ## Remarks
 Tests show that pm2.5 rmse is not sensitive to neuron number in the range of 40-100, lag hours 12-48.
