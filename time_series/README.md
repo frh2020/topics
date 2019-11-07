@@ -8,7 +8,7 @@ The raw data file is a Beijing air quality dataset. the dataset was pre-processe
 
 Multiple features and 5 years data (recorded every hour) are used as input to predict the PM2.5 of the next hour(s).
 
-A **many-to-many** LSTM model is used for this multivariate and multi-step case.
+A **many-to-many** LSTM neural network (see the figure of an example below) is used for this multivariate and multi-step case.
 
 <p align="center">
 <img src="https://drive.google.com/uc?id=159QK2H7IM282u97kQRqmqNxQkVThdoIR" width="500" >
