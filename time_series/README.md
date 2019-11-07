@@ -1,8 +1,8 @@
 # **Time Series ML with LSTM in Keras (TF 2.0)**
 
-This small project is for learning time series ML using LSTM RNN network implemented with Keras model. The current version is  https://github.com/frh2020/topics/blob/master/time_series/time_series_bjpm25_lstm_v2.ipynb
+This small project is for learning time series ML using LSTM RNN network implemented with Keras model. The current version is v2. https://github.com/frh2020/topics/blob/master/time_series/time_series_bjpm25_lstm_v2.ipynb
 
-The codes are based on **Multivariate Time Series Forecasting with LSTMs in Keras** by **Dr Jason Brownlee**  https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/
+The codes are based on **Multivariate Time Series Forecasting with LSTMs in Keras** by **Dr Jason Brownlee**.  https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/
 
 The raw data file is a Beijing air quality dataset. the dataset was pre-processed a bit to be used in this work. https://github.com/frh2020/topics/blob/master/time_series/time_series_bjpm25_dp.ipynb
 
