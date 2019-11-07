@@ -1,4 +1,4 @@
-# **Time Series ML with LSTM with Keras (TF 2.0)**
+# **Time Series ML with LSTM in Keras (TF 2.0)**
 
 This small project is for learning time series ML using LSTM RNN network implemented with Keras model. current version is here. https://github.com/frh2020/topics/blob/master/time_series/time_series_bjpm25_lstm_v2.ipynb
 
