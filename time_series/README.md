@@ -1,14 +1,17 @@
 # **Time Series ML with LSTM with Keras (TF 2.0)**
 
-This notebook is for me practicing time series ML with LSTM and based on **Multivariate Time Series Forecasting with LSTMs in Keras** by **Dr Jason Brownlee** . The great original work is here https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/
+This small project is for learning time series ML using LSTM RNN network implemented with Keras model. current version is here. https://github.com/frh2020/topics/blob/master/time_series/time_series_bjpm25_lstm_v2.ipynb
 
+The codes are based on **Multivariate Time Series Forecasting with LSTMs in Keras** by **Dr Jason Brownlee** . https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/
 
-The raw data file is a Beijing air quality dataset. the dataset was pre-processed a bit to be used in this work. Multiple features and 5 years data (recorded every hour) are used as input to predict the PM2.5 of the next hour(s).
+The raw data file is a Beijing air quality dataset. the dataset was pre-processed a bit to be used in this work. https://github.com/frh2020/topics/blob/master/time_series/time_series_bjpm25_dp.ipynb
+
+Multiple features and 5 years data (recorded every hour) are used as input to predict the PM2.5 of the next hour(s).
 
 A **many-to-many** LSTM model is used for this multivariate and multi-step case.
 
 <p align="center">
-<img src="https://drive.google.com/uc?id=1S-j9w6nYi9eVo0NJaQ4gTZx6JAQJtZeu" width="500" >
+<img src="https://drive.google.com/uc?id=159QK2H7IM282u97kQRqmqNxQkVThdoIR" width="500" >
 </p>
 <br />
 
