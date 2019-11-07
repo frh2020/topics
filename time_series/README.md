@@ -49,7 +49,7 @@ Other features also are not sensitive to neuron number 40-100, but improve as la
 
 Univariate and multivariate outputing yeild similar results.
 
-seasonality feature 'doy' plays a significant role in the training. It impact highly seasonally dependent features such as temperature.
+seasonality feature 'doy' plays a significant role in the training. It impacts highly seasonally dependent features such as temperature.
 
 ## Future works
 internal state depends on number of days
