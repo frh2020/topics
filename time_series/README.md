@@ -43,19 +43,19 @@ A **many-to-many** LSTM model is used for this multivariate and multi-step case.
 *   return_sequence = **false**  for 1st stage, **Ture** for output
 
 ## Remarks
-tests show that pm2.5 rmse is not sensitive to neuron number in the range of 40-100, lag hours 12-48
+Tests show that pm2.5 rmse is not sensitive to neuron number in the range of 40-100, lag hours 12-48.
 
-other 3 features also are not sensitive to neuron number 40-100, but improves as lag hours increase from 12-48
+Other features also are not sensitive to neuron number 40-100, but improve as lag hours increase from 12-48.
 
-outputing pm2.5 with other features doesn't afffect the result.
+Univariate and multivariate outputing yeild similar results.
 
-'doy' plays a significant role in the training. it's especially obvious for the temperature prediction.
+seasonality feature 'doy' plays a significant role in the training. It impact highly seasonally dependent features such as temperature.
 
 ## Future works
 internal state depends on number of days
 
 ## Credit
-origianl work and referances are here
+origianl work and referances are 
 
 https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/
 
