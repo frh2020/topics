@@ -21,3 +21,5 @@ example 2 shows basic selection of data under conditions and join two tables.
 example 3 shows how to groupby columes, count, rank, and take the top of the list
 
 
+## Data source
+Data in tables are subsets of kaggle fifa19 data from https://www.kaggle.com/karangadiya/fifa19
