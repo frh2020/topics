@@ -2,7 +2,7 @@
 
 This small project is for learning time series ML using LSTM RNN implemented with Keras model. The current version is v2. https://github.com/frh2020/topics/blob/master/time_series/time_series_bjpm25_lstm_v2.ipynb
 
-The codes are modified from **Multivariate Time Series Forecasting with LSTMs in Keras** by **Dr Jason Brownlee**.  https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/
+The models are modified from **Multivariate Time Series Forecasting with LSTMs in Keras** by **Dr Jason Brownlee**.  https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/
 
 The raw data file is a Beijing air quality dataset. the dataset was pre-processed a bit to be used in this work. https://github.com/frh2020/topics/blob/master/time_series/time_series_bjpm25_dp.ipynb
 
@@ -45,11 +45,11 @@ A **many-to-many** LSTM neural network (see the figure of an example below) is u
 ## Remarks
 Tests show that pm2.5 rmse is not sensitive to neuron number in the range of 40-100, lag hours 12-48.
 
-Other features also are not sensitive to neuron number 40-100, but improve as lag hours increase from 12-48.
+Other features also are not sensitive to neuron number 40-100 but improve as lag hours increase from 12-48.
 
-Univariate and multivariate outputing yeild similar results.
+Univariate and multivariate models have similar results.
 
-seasonality feature 'doy' plays a significant role in the training. It impacts highly seasonally dependent features such as temperature.
+Seasonality feature 'doy' plays a significant role in the training. It impacts highly seasonally dependent features such as temperature.
 
 ## Future works
 internal state depends on number of days
