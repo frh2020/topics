@@ -18,29 +18,29 @@ A **many-to-many** LSTM neural network (see the figure of an example below) is u
 ## Modification from the original work in v1
 
 1.   One-hot encoding is implemented for 'wind direction'.
-2.   'hours' and 'day-of-year' features are added as seasonality factors
+2.   'Hours' and 'day-of-year' features are added as seasonality factors
 3.   Providing more multiple hours of input and output time steps.
-4.   make output features selectable, automatically drop unwanted
+4.   Make output features selectable, automatically drop unwanted
 
 ## Modification from v1
 
-1.   implement multiple output timestep at data prep
-2.   use many-to-many LSTM model with 2 stages
-3.   simplify inverse scaling for output features
-4.   change codes around for 'values' assignment to avoid re-run issue 
-5.   more plots
+1.   Implement multiple output timestep at data prep
+2.   Use many-to-many LSTM model with 2 stages
+3.   Simplify inverse scaling for output features
+4.   Change codes around for 'values' assignment to avoid re-run issue 
+5.   More plots
 
 ## Conditions
 
 
-*   input timesteps = 12 hours
-*   pred timestep = 4 hour
-*   input features: pm2.5, dew, temp, press, wind speed, wind directions, rain, snow, doy, hour
-*   output features: pm2.5, temp
-*   train data duration: 4 years
-*   test data duration: 1 year
-*   neurons = 50
-*   return_sequences = **false**  for 1st stage, **Ture** for 2nd.
+*   Input timesteps = 12 hours
+*   Pred timestep = 4 hour
+*   Input features: pm2.5, dew, temp, press, wind speed, wind directions, rain, snow, doy, hour
+*   Output features: pm2.5, temp
+*   Train data duration: 4 years
+*   Test data duration: 1 year
+*   Neurons = 50
+*   Return_sequences = **false**  for 1st stage, **Ture** for 2nd.
 
 ## Remarks
 Tests show that pm2.5 rmse is not sensitive to neuron number in the range of 40-100, lag hours 12-48.
@@ -52,10 +52,10 @@ Univariate and multivariate models have similar results.
 Seasonality feature 'doy' plays a significant role in the training. It impacts highly seasonally dependent features such as temperature.
 
 ## Future works
-internal state depends on number of days
+Internal state depends on number of days
 
 ## Credit
-origianl work and referances are 
+Origianl work and referances are 
 
 https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/
 
