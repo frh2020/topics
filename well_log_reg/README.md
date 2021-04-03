@@ -14,7 +14,7 @@ Data exploration
 
 Feature selection 
 
-[Model diagnosis](model_lin_diagn.ipynb)
+[Model diagnosis](model_lin_diagn_xn.ipynb)
 
 [Model testing](models_xn_cv.ipynb)
 
