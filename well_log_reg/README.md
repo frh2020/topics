@@ -20,7 +20,7 @@ Feature selection
 
 [Model comparison](models_cmp.ipynb)
 
-[Neural Network model](models_nn.ipynb)
+[Neural Network model](model_nn.ipynb)
 
 [Predition output](pred_output.ipynb)
 
