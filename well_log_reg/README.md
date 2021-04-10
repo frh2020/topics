@@ -14,11 +14,13 @@ Data exploration
 
 Feature selection 
 
-[Model diagnosis](model_lin_diagn_xn.ipynb)
+[Linear model diagnosis](model_xn_diagn.ipynb)
 
-[Model testing](models_xn_cv.ipynb)
+[Linear model testing](models_xn_cv.ipynb)
 
 [Model comparison](models_cmp.ipynb)
+
+[Neural Network model](models_nn.ipynb)
 
 [Predition output](pred_output.ipynb)
 
