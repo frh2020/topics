@@ -16,9 +16,7 @@ Feature selection
 
 [Linear model diagnosis](model_xn_diagn.ipynb)
 
-[Linear model testing](models_xn_cv.ipynb)
-
-[Model comparison](models_cmp.ipynb)
+[Linear model testing](models_xn_cv.ipynb) and [comparison](models_cmp.ipynb)
 
 [Boosting models: XGB, LightGBM, CatBoost](model_gb.ipynb)
 
