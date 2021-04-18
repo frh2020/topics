@@ -20,6 +20,8 @@ Feature selection
 
 [Model comparison](models_cmp.ipynb)
 
+[Boosting models: XGB, LightGBM, CatBoost](model_gb.ipynb)
+
 [Neural Network model](model_nn.ipynb)
 
 [Predition output](pred_output.ipynb)
