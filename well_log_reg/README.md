@@ -23,5 +23,3 @@ Feature selection
 [Neural Network model](model_nn.ipynb)
 
 [Predition output](pred_output.ipynb)
-
-## To be updated
