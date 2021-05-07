@@ -14,11 +14,11 @@ Data exploration
 
 Feature selection 
 
-[Linear model diagnosis](model_xn_diagn.ipynb)
+[Linear regression model diagnosis](model_xn_diagn.ipynb)
 
 [Outlier analysis](data_prep_outlier.ipynb)
 
-[Linear model testing](models_xn_cv.ipynb) and [comparison](models_cmp.ipynb)
+[Linear regression algorithm testing](models_xn_cv.ipynb) and [comparison](models_cmp.ipynb)
 
 [Boosting models: XGB, LightGBM, CatBoost](model_gb.ipynb)
 
