@@ -10,7 +10,7 @@ Some of the codes of the flow are uploaded.
 
 [Data exploration](data_exploration.ipynb)([html](data_exploration.html))
 
-[Data cleaning and transfomation](data_prep_ts_bal_trans.ipynb)
+[Data balancing and transfomation](data_prep_ts_bal_trans.ipynb)
 
 Feature selection 
 
