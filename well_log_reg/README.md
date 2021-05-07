@@ -8,7 +8,7 @@ Some of the codes of the flow are uploaded.
 
 [Data loading](load_las_data.ipynb)
 
-Data exploration
+[Data exploration](data_exploration.ipynb)
 
 [Data cleaning and transfomation](data_prep_ts_bal_trans.ipynb)
 
