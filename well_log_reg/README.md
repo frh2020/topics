@@ -18,7 +18,7 @@ Feature selection
 
 [Outlier analysis](data_prep_outlier.ipynb)
 
-[Linear regression algorithm testing](models_xn_cv.ipynb) and [comparison](models_cmp.ipynb)
+[Linear regression algorithm test](models_xn_cv.ipynb) and [comparison](models_cmp.ipynb)
 
 [Boosting models: XGB, LightGBM, CatBoost](model_gb.ipynb)
 
