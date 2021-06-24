@@ -1,3 +1,3 @@
+OpenCV library
 
-Image data generator
-Image croping and resizing
+Image croping flow using data generator
