@@ -24,5 +24,7 @@ example 3 shows how to groupby columes, count, rank, and take the top of the lis
 
 https://github.com/frh2020/topics/blob/master/SQL_in_python/BQ_SQL_query_basic2_git.ipynb
 
+https://github.com/frh2020/topics/blob/master/SQL_in_python/pandas_sql_server_online.ipynb
+
 ## Data source
 Data in tables are subsets of kaggle fifa19 data from https://www.kaggle.com/karangadiya/fifa19
